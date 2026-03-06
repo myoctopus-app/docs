@@ -38,7 +38,7 @@ Download the latest `.dmg` from [**GitHub Releases**](https://github.com/myoctop
 | Apple Silicon (M1 / M2 / M3 / M4) | [MyOctopus-arm64.dmg](https://github.com/myoctopus-app/docs/releases/latest) |
 | Intel | [MyOctopus-x64.dmg](https://github.com/myoctopus-app/docs/releases/latest) |
 
-> **Requirements:** macOS 12 (Monterey) or later. A Claude account (Max, Pro, or API key) is needed for AI features.
+> **Requirements:** macOS 12 (Monterey) or later. A Claude account (Free, Pro, Max, or API key) is required for AI features. Paid plans recommended for heavier usage.
 
 ## Features
 
