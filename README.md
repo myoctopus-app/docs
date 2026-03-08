@@ -35,8 +35,8 @@ Download the latest `.dmg` from [**GitHub Releases**](https://github.com/myoctop
 
 | Architecture | Download |
 |---|---|
-| Apple Silicon (M1 / M2 / M3 / M4) | [MyOctopus-arm64.dmg](https://github.com/myoctopus-app/docs/releases/latest) |
-| Intel | [MyOctopus-x64.dmg](https://github.com/myoctopus-app/docs/releases/latest) |
+| Apple Silicon (M1 / M2 / M3 / M4) | [MyOctopus-arm64.dmg](https://github.com/myoctopus-app/docs/releases/latest/download/MyOctopus-1.0.0-arm64.dmg) |
+| Intel | [MyOctopus-x64.dmg](https://github.com/myoctopus-app/docs/releases/latest/download/MyOctopus-1.0.0.dmg) |
 
 > **Requirements:** macOS 12 (Monterey) or later. A Claude account (Free, Pro, Max, or API key) is required for AI features. Paid plans recommended for heavier usage.
 
@@ -83,7 +83,6 @@ Found a vulnerability? Please report it privately — see [SECURITY.md](SECURITY
 ## Contact
 
 - **Bug Reports & Feature Requests**: [GitHub Issues](https://github.com/myoctopus-app/docs/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/myoctopus-app/docs/discussions)
 - **Website**: [myoctopus.app](https://myoctopus.app)
 
 ---
