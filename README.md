@@ -60,17 +60,21 @@ Download the latest `.dmg` below, or browse [all releases](https://github.com/my
 
 ## Documentation
 
+Visit **[docs.myoctopus.app](https://docs.myoctopus.app)** for the full documentation.
+
 | Guide | Description |
 |-------|------------|
-| [Getting Started](docs/getting-started.md) | Installation, first launch, macOS permissions |
-| [Automations](docs/features/automations.md) | Building and running automations |
-| [AI Chat](docs/features/ai-chat.md) | Using Claude to generate automations |
-| [Gmail Integration](docs/features/gmail-integration.md) | Connecting Gmail, email triggers |
-| [Calendar Integration](docs/features/calendar-integration.md) | Events, triggers, free slot finding |
-| [Browser Automation](docs/features/browser-automation.md) | Playwright-powered web automation |
-| [MCP Server](docs/features/mcp-server.md) | Setup for Claude Desktop / Claude Code |
-| [Remote Access](docs/features/remote-access.md) | Telegram bot and WebUI setup |
-| [Triggers](docs/features/triggers.md) | Email, WiFi, calendar, and schedule triggers |
+| [Getting Started](https://docs.myoctopus.app/getting-started) | Installation, first launch, macOS permissions |
+| [Automations](https://docs.myoctopus.app/features/automations) | Building and running automations |
+| [AI Chat](https://docs.myoctopus.app/features/ai-chat) | Using Claude to generate automations |
+| [Gmail Integration](https://docs.myoctopus.app/integrations/gmail) | Connecting Gmail, email triggers |
+| [Calendar Integration](https://docs.myoctopus.app/integrations/calendar) | Events, triggers, free slot finding |
+| [Browser Automation](https://docs.myoctopus.app/integrations/browser-automation) | Playwright-powered web automation |
+| [MCP Server](https://docs.myoctopus.app/advanced/mcp-server) | Setup for Claude Desktop / Claude Code |
+| [Remote Access](https://docs.myoctopus.app/advanced/remote-access) | Telegram bot and WebUI setup |
+| [Triggers](https://docs.myoctopus.app/features/triggers) | Email, WiFi, calendar, and schedule triggers |
+| [Preset Templates](https://docs.myoctopus.app/features/preset-templates) | 13 built-in automation presets |
+| [FAQ](https://docs.myoctopus.app/faq) | Common questions and troubleshooting |
 
 ## Changelog
 
