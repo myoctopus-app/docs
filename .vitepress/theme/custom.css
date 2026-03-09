@@ -1,0 +1,148 @@
+/* Match myoctopus.app website design */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Brand colors — matching myoctopus.app */
+  --vp-c-brand-1: #6366f1;
+  --vp-c-brand-2: #4f46e5;
+  --vp-c-brand-3: #4338ca;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.14);
+
+  /* Font */
+  --vp-font-family-base: 'Outfit', system-ui, -apple-system, sans-serif;
+  --vp-font-family-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Home hero gradient */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(99, 102, 241, 0.3) 0%, rgba(236, 72, 153, 0.3) 100%);
+  --vp-home-hero-image-filter: blur(44px);
+
+  /* Button colors */
+  --vp-button-brand-bg: #6366f1;
+  --vp-button-brand-hover-bg: #4f46e5;
+  --vp-button-brand-active-bg: #4338ca;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-border: transparent;
+}
+
+/* Dark theme overrides — match website dark mode */
+.dark {
+  --vp-c-bg: #050505;
+  --vp-c-bg-alt: #111111;
+  --vp-c-bg-soft: #111111;
+  --vp-c-bg-elv: #191919;
+
+  --vp-c-border: #222222;
+  --vp-c-divider: #222222;
+  --vp-c-gutter: #111111;
+
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #a1a1aa;
+  --vp-c-text-3: #71717a;
+
+  --vp-c-brand-1: #6366f1;
+  --vp-c-brand-2: #818cf8;
+  --vp-c-brand-3: #a5b4fc;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.16);
+
+  --vp-nav-bg-color: color-mix(in srgb, #050505 80%, transparent);
+
+  --vp-code-block-bg: #111111;
+  --vp-code-bg: rgba(99, 102, 241, 0.1);
+}
+
+/* Light theme overrides — match website light mode */
+:root:not(.dark) {
+  --vp-c-bg: #f8fafc;
+  --vp-c-bg-alt: #ffffff;
+  --vp-c-bg-soft: #f1f5f9;
+  --vp-c-bg-elv: #ffffff;
+
+  --vp-c-border: #e2e8f0;
+  --vp-c-divider: #e2e8f0;
+  --vp-c-gutter: #f1f5f9;
+
+  --vp-c-text-1: #0f172a;
+  --vp-c-text-2: #64748b;
+  --vp-c-text-3: #94a3b8;
+
+  --vp-c-brand-1: #4f46e5;
+  --vp-c-brand-2: #4338ca;
+  --vp-c-brand-3: #3730a3;
+  --vp-c-brand-soft: rgba(79, 70, 229, 0.1);
+
+  --vp-code-block-bg: #f1f5f9;
+  --vp-code-bg: rgba(79, 70, 229, 0.08);
+}
+
+/* Nav bar — frosted glass like website */
+.VPNav .VPNavBar {
+  background: color-mix(in srgb, var(--vp-c-bg) 80%, transparent) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--vp-c-border);
+}
+
+/* Sidebar — match website surface style */
+.VPSidebar {
+  background: var(--vp-c-bg-alt) !important;
+}
+
+/* Sidebar active link — brand color */
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--vp-c-brand-1) !important;
+}
+
+/* Feature cards on home — subtle glow on hover */
+.VPFeature {
+  border: 1px solid var(--vp-c-border) !important;
+  background: var(--vp-c-bg-alt) !important;
+  transition: all 0.3s ease !important;
+}
+
+.VPFeature:hover {
+  border-color: var(--vp-c-brand-1) !important;
+  box-shadow: 0 0 20px rgba(99, 102, 241, 0.15) !important;
+}
+
+/* Brand button — pill shape like website CTA */
+.VPButton.brand {
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+}
+
+.VPButton.brand:hover {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.4) !important;
+}
+
+/* Alt button — pill shape */
+.VPButton.alt {
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+}
+
+/* Footer — match website footer style */
+.VPFooter {
+  background: var(--vp-c-bg-alt) !important;
+  border-top: 1px solid var(--vp-c-border) !important;
+}
+
+/* Scrollbar — subtle */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-text-3);
+}
