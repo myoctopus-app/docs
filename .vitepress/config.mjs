@@ -1,7 +1,8 @@
 export default {
   title: 'MyOctopus',
   description: 'AI-powered Mac automation',
-  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
+  base: '/docs/',
+  head: [['link', { rel: 'icon', href: '/docs/images/logo.png' }]],
   srcExclude: ['README.md', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'CONTRIBUTING.md', 'SECURITY.md'],
 
   themeConfig: {
