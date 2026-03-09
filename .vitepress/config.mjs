@@ -9,7 +9,7 @@ export default {
 
     nav: [
       { text: 'Guide', link: '/getting-started' },
-      { text: 'Download', link: 'https://github.com/myoctopus-app/docs/releases/latest' },
+      { text: 'Download', link: 'https://myoctopus.app/download' },
     ],
 
     sidebar: [

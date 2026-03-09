@@ -14,7 +14,7 @@ hero:
       link: /getting-started
     - theme: alt
       text: Download
-      link: https://github.com/myoctopus-app/docs/releases/latest
+      link: https://myoctopus.app/download
 
 features:
   - title: AI Chat
