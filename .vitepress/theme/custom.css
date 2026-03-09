@@ -76,25 +76,90 @@
   --vp-code-bg: rgba(79, 70, 229, 0.08);
 }
 
-/* Nav bar — frosted glass like website */
+/* ==========================================
+   HEADER / NAV — match myoctopus.app header
+   ========================================== */
+
+/* Frosted glass nav bar */
 .VPNav .VPNavBar {
   background: color-mix(in srgb, var(--vp-c-bg) 80%, transparent) !important;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--vp-c-border);
+  border-bottom: 1px solid var(--vp-c-border) !important;
 }
 
-/* Sidebar — match website surface style */
+/* Remove divider line inside nav */
+.VPNavBar .divider,
+.VPNavBar .divider-line {
+  display: none !important;
+}
+
+/* Hide external link arrows on nav items */
+.VPNavBarMenuLink .text[class] .vpi-external-link-icon,
+.VPNavBarMenuGroup .text[class] .vpi-external-link-icon,
+.VPNavBarMenuLink .vpi-external-link-icon,
+.vp-external-link-icon {
+  display: none !important;
+}
+
+/* Nav link styling — match website */
+.VPNavBarMenuLink .VPLink {
+  font-size: 0.95rem !important;
+  font-weight: 500 !important;
+  color: var(--vp-c-text-2) !important;
+  transition: color 0.2s !important;
+}
+
+.VPNavBarMenuLink .VPLink:hover {
+  color: var(--vp-c-text-1) !important;
+}
+
+/* Style "Download" nav link as a CTA pill button like website */
+.VPNavBarMenuLink:last-child .VPLink,
+a.VPLink[href*="download"] {
+  background: var(--vp-c-brand-1) !important;
+  color: white !important;
+  padding: 0.4rem 1.25rem !important;
+  border-radius: 999px !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+  transition: all 0.2s !important;
+  border: 1px solid transparent !important;
+}
+
+.VPNavBarMenuLink:last-child .VPLink:hover,
+a.VPLink[href*="download"]:hover {
+  background: var(--vp-c-brand-2) !important;
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.4) !important;
+  color: white !important;
+}
+
+/* Social links in nav — match website icon style */
+.VPSocialLinks .VPSocialLink {
+  color: var(--vp-c-text-2) !important;
+  transition: color 0.2s !important;
+}
+
+.VPSocialLinks .VPSocialLink:hover {
+  color: var(--vp-c-text-1) !important;
+}
+
+/* ==========================================
+   SIDEBAR
+   ========================================== */
+
 .VPSidebar {
   background: var(--vp-c-bg-alt) !important;
 }
 
-/* Sidebar active link — brand color */
 .VPSidebarItem.is-active > .item > .link > .text {
   color: var(--vp-c-brand-1) !important;
 }
 
-/* Feature cards on home — subtle glow on hover */
+/* ==========================================
+   HOME PAGE — feature cards
+   ========================================== */
+
 .VPFeature {
   border: 1px solid var(--vp-c-border) !important;
   background: var(--vp-c-bg-alt) !important;
@@ -117,19 +182,44 @@
   box-shadow: 0 0 15px rgba(99, 102, 241, 0.4) !important;
 }
 
-/* Alt button — pill shape */
 .VPButton.alt {
   border-radius: 999px !important;
   font-weight: 600 !important;
 }
 
-/* Footer — match website footer style */
+/* ==========================================
+   FOOTER — match myoctopus.app footer
+   ========================================== */
+
 .VPFooter {
   background: var(--vp-c-bg-alt) !important;
   border-top: 1px solid var(--vp-c-border) !important;
+  padding: 2rem 1.5rem !important;
 }
 
-/* Scrollbar — subtle */
+.VPFooter .message {
+  font-size: 0.9rem !important;
+}
+
+.VPFooter .message a {
+  color: var(--vp-c-text-2) !important;
+  font-weight: 500 !important;
+  transition: color 0.2s !important;
+}
+
+.VPFooter .message a:hover {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPFooter .copyright {
+  color: var(--vp-c-text-3) !important;
+  font-size: 0.85rem !important;
+}
+
+/* ==========================================
+   SCROLLBAR
+   ========================================== */
+
 ::-webkit-scrollbar {
   width: 6px;
 }

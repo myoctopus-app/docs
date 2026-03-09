@@ -13,9 +13,10 @@ export default {
     logo: '/images/logo.png',
 
     nav: [
-      { text: 'Website', link: 'https://myoctopus.app' },
+      { text: 'Home', link: 'https://myoctopus.app' },
+      { text: 'Pricing', link: 'https://myoctopus.app/pricing' },
       { text: 'Guide', link: '/getting-started' },
-      { text: 'Download', link: 'https://myoctopus.app/download' },
+      { text: 'Download for Mac', link: 'https://myoctopus.app/download' },
     ],
 
     sidebar: [
