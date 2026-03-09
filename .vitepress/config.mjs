@@ -7,6 +7,7 @@ export default {
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['link', { href: 'https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap', rel: 'stylesheet' }],
   ],
+  cleanUrls: true,
   srcExclude: ['README.md', 'CHANGELOG.md', 'CODE_OF_CONDUCT.md', 'CONTRIBUTING.md', 'SECURITY.md'],
 
   themeConfig: {
