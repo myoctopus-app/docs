@@ -35,8 +35,8 @@ Download the latest `.dmg` below, or browse [all releases](https://github.com/my
 
 | Architecture | Download |
 |---|---|
-| Apple Silicon (M1 / M2 / M3 / M4) | [Download for Apple Silicon](https://github.com/myoctopus-app/docs/releases/download/v1.0.9/MyOctopus-1.0.9-arm64.dmg) |
-| Intel | [Download for Intel](https://github.com/myoctopus-app/docs/releases/download/v1.0.9/MyOctopus-1.0.9-x64.dmg) |
+| Apple Silicon (M1 / M2 / M3 / M4) | [Download for Apple Silicon](https://github.com/myoctopus-app/docs/releases/download/v1.0.10/MyOctopus-1.0.10-arm64.dmg) |
+| Intel | [Download for Intel](https://github.com/myoctopus-app/docs/releases/download/v1.0.10/MyOctopus-1.0.10-x64.dmg) |
 
 > **Requirements:** macOS 12 (Monterey) or later. A Claude account (Free, Pro, Max, or API key) is required for AI features. Paid plans recommended for heavier usage.
 
